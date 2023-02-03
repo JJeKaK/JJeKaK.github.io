@@ -1,18 +1,28 @@
 * {
     background-color: black;
+    font-family:akira;
+    margin: 30px;
+    text-align: center;
 }
+
+@font-face {
+    font-family:akira;
+    src: url(Akira\ Expanded\ Demo.otf);
+ }
 
 h1 {
     color: white;
-    text-align: left;
+    font-size: 70px;
+    margin: 40px;
 }
 
 h2 {
     color: white;
-    text-align: left;
+    font-size: 27px;
 }
 
-p {
-    color: white;
-    text-align: left;
+img {
+    width: 100px;
 }
+
+.pointer {cursor: pointer;}
