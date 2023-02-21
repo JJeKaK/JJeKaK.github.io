@@ -1,15 +1,273 @@
-.first {
-    text-align: left;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
 }
-.second {
-    text-align: left;
+
+@font-face {
+    font-family: Hiragino1;
+    src: url(/inPraiseOfShadows/fonts/ヒラギノ角ゴシック\ W1.ttc);
 }
-.third {
-    text-align: left;
+@font-face {
+    font-family: itc;
+    src: url(/inPraiseOfShadows/fonts/GalliardStd-Roman.otf);
 }
-.fourth {
-    text-align: left;
+@font-face {
+    font-family: neue;
+    src: url(/inPraiseOfShadows/fonts/NeueBit-Regular.otf);
 }
-.fifth {
-    text-align: left;
+.cursor {
+    position: absolute;
+    background-color: black;
+    filter: blur(1.5px);
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header {
+    color: #F4EEDC;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 10px #fff, 0 0 40px #a78596;
+    filter: blur(1px);
+}
+
+main {
+    font-family: Hiragino1;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    filter: blur(0.5px);
+    line-height: 200%;
+}
+
+.scanoverlay {
+    margin: 0;
+    position: absolute;
+    z-index: 30;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: exclusion;
+    opacity: 60%;
+    pointer-events: none;
+}
+  
+.noiseoverlay {
+    margin: 0;
+    position: absolute;
+    z-index: 30;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.one {
+    font-family: Hiragino1;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadeIn;
+    animation-direction: normal;
+    animation-duration: 3000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.two {
+    font-family: itc;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight {
+    background-color: #c9c3aeef;
+    font-family: neue;
+    font-style: oblique;
+    font-size: 33px;
+    line-height: 1.6;
+}    
+
+.three {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+
+.three3 {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+
+.four {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+.bodytextcontainer {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.bodytext {
+    border-right: 1px solid black;
+    min-width: 30vw;
+    min-height: 70vh;
+    margin-left: 10%;
+    padding-right: 2vh;
+    display:inline-block;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    text-align: right;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.five {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    transition: background-color 7s ease-out 100ms
+}
+.five:hover {
+    background-color: black;
+}
+
+.five3 {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    position: absolute;
+    filter: blur(0.6px);
+    transition: 3s;
+}
+.five3:hover {
+    background-color: black;
+    color: #F4EEDC;
+}
+
+.six {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+
+.six1 {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+
+.seven {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+.highlightneon {
+    background-color: #c9c3aeef;
+    font-family: neue;
+    font-style: oblique;
+    font-size: 33px;
+    line-height: 1.6;
+    box-shadow: 0 0 50px 15px goldenrod;
+}
+
+.seven1 {
+    height: 100vh;
+    background: #F4EEDC;
+    padding: 100px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+
+.eight {
+    height: 100vh;
+    background: black;
+    padding: 40px;
+    border: 50px solid black;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+}
+
+footer {
+    font-family: itc;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 40px #a78596;
+    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    filter: blur(1px);
 }
