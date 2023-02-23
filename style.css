@@ -66,6 +66,16 @@ h2 {
     filter: blur(0.5px);
 }
 
+img {
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .img {
     width: 150px;
     cursor: pointer;
