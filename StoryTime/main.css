@@ -19,15 +19,21 @@ button {
     font-size: 16px;
 }
 
-.pointer {cursor: pointer;
+.pointer {
+    cursor: pointer;
 }
 
 pre {
     text-align: center;
 }
 
+@font-face {
+    font-family: alagard;
+    src: url(/storyTime/alagard.ttf);
+}
+
 p {
     text-align: center;
     padding: 20px;
-    font-family: 'DotGothic16';font-size: 22px;
+    font-family: 'alagard';font-size: 25px;
 }
