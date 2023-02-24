@@ -1,0 +1,39 @@
+* {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    cursor: url("/storytime/mouse.webp"), auto;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+pre {
+    text-align: center;
+}
+
+@font-face {
+    font-family: alagard;
+    src: url(/storytime/alagard.ttf);
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+    font-family: 'alagard';font-size: 25px;
+}
