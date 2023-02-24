@@ -7,15 +7,15 @@
 
 @font-face {
     font-family: Hiragino1;
-    src: url(/inPraiseOfShadows/fonts/ヒラギノ角ゴシック\ W1.ttc);
+    src: url(/inpraiseofshadows/fonts/ヒラギノ角ゴシック\ W1.ttc);
 }
 @font-face {
     font-family: itc;
-    src: url(/inPraiseOfShadows/fonts/GalliardStd-Roman.otf);
+    src: url(/inpraiseofshadows/fonts/GalliardStd-Roman.otf);
 }
 @font-face {
     font-family: neue;
-    src: url(/inPraiseOfShadows/fonts/NeueBit-Regular.otf);
+    src: url(/inpraiseofshadows/fonts/NeueBit-Regular.otf);
 }
 .cursor {
     position: absolute;
@@ -117,10 +117,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 
 .three3 {
@@ -128,10 +128,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 
 .four {
@@ -139,10 +139,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 .bodytextcontainer {
     display: flex;
@@ -168,10 +168,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
     transition: background-color 7s ease-out 100ms
 }
 .five:hover {
@@ -183,10 +183,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
     position: absolute;
     filter: blur(0.6px);
     transition: 3s;
@@ -201,10 +201,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 
 .six1 {
@@ -212,10 +212,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 
 .seven {
@@ -223,10 +223,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 .highlightneon {
     background-color: #c9c3aeef;
@@ -242,10 +242,10 @@ section {
     background: #F4EEDC;
     padding: 100px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 
 .eight {
@@ -253,10 +253,10 @@ section {
     background: black;
     padding: 40px;
     border: 50px solid black;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
 }
 
 footer {
@@ -265,9 +265,9 @@ footer {
     font-size: 30px;
     text-align: center;
     text-shadow: 0 0 10px #fff, 0 0 40px #a78596;
-    border-image: url(/inPraiseOfShadows/overlay/outline.png) 40 / 40px round;
+    border-image: url(/inpraiseofshadows/overlay/outline.png) 40 / 40px round;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    border-image-source: url(/inPraiseOfShadows/overlay/outline.png);
+    border-image-source: url(/inpraiseofshadows/overlay/outline.png);
     filter: blur(1px);
 }

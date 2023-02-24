@@ -6,7 +6,7 @@
     padding: 0;
     color: white;
     box-sizing: border-box;
-    cursor: url("/storyTime/mouse.webp"), auto;
+    cursor: url("/storytime/mouse.webp"), auto;
 }
 
 button {
@@ -29,7 +29,7 @@ pre {
 
 @font-face {
     font-family: alagard;
-    src: url(/storyTime/alagard.ttf);
+    src: url(/storytime/alagard.ttf);
 }
 
 p {
