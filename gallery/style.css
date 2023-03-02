@@ -1,8 +1,30 @@
 * {
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5vh;
 }
 
 h1 {
+    font-size: 100px;
+    margin-bottom: 5vh;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+:any-link {
+    color: lightgoldenrodyellow;
+}
+
+a:hover {
+    color: gold;
 }
