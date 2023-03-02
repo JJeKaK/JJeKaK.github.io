@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+/* sphere animation */
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+        filter: blur(0);
+    }
+    100% {
+        transform: translateY(500px);
+        filter: blur(10px);
+    }
+}
+
+.sphere {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    border-radius: 50%;
+    animation: floating 3s infinite alternate ease-in-out;
+}
+
+/* hangul animation */
+.hangul {
+    width: 800px;
+    animation: hangul 3s infinite ease-in-out;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes hangul {
+    0% {
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}

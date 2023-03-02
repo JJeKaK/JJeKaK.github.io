@@ -3,22 +3,21 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 5vh;
 }
 
 h1 {
     font-size: 100px;
-    margin-bottom: 5vh;
+    margin: 50px;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    row-gap: 10vh;
 }
 
 figcaption {
     font-size: 20px;
+    margin: 20px;
 }
 
 :any-link {
@@ -28,3 +27,68 @@ figcaption {
 a:hover {
     color: gold;
 }
+
+/* tategumi-yokogumi */
+#tategumi-yokogumi {
+    display: flex;
+    justify-content: center;
+}
+
+.twhite {
+    background-color: white;
+    height: 800px;
+    width: 600px;
+}
+
+.tblack {
+    background-color: black;
+    height: 733px;
+    width: 575px;
+    position: relative;
+    left: 12.5px;
+    top: 12.5px;
+}
+
+.ttextbackground1 {
+    width: 35px;
+    height: 733px;
+    background-image: linear-gradient(#f8516a, #ef8a71, #eed885, #eee98f, #cad890, #83b593, #6ca49e, #4991ae, #3360aa, #2f4395, #40358c, #6d3d91);
+}
+
+@font-face {
+    font-family: eulyoo;
+    src: url(/gallery/Eulyoo1945-SemiBold.otf);
+}
+
+.ttext {
+    font-family: eulyoo;
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 30px;
+    height: 733px;
+    width: 575px;
+}
+
+.ttextleft {
+    text-align: left;
+}
+
+.ttextright {
+    text-align: left;
+    position: relative;
+    left: 505px;
+}
+
+.ttitle {
+    color: black;
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-family: eulyoo;
+}
+
+/* nu-bodies */
+
+/* floated */
