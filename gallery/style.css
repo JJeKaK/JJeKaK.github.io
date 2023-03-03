@@ -113,6 +113,7 @@ a:hover {
     background-color: rgb(230, 230, 230);
     height: 800px;
     width: 600px;
+    position: relative;
 }
 
 @font-face {
@@ -123,13 +124,19 @@ a:hover {
 .nubodies {
     color: black;
     font-family: retrosans;
-    font-size: 70px;
+    font-size: 60px;
+    position: absolute;
+    top: 45%;
+    left: 120px;
 }
 
 .boxleftbtm {
     width: 80px;
-    height: 220px;
+    height: 200px;
     background-color: black;
+    position: absolute;
+    top: 570px;
+    left: 25px;
 }
 
 @font-face {
@@ -142,34 +149,59 @@ a:hover {
     font-family: americantypewriter;
     font-size: 30px;
     width: min-content;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 480px;
+    left: 15px;
 }
 
 .boxleftmid {
     background-color: black;
     color: rgb(230, 230, 230);
-    width: fit-content;
+    width: 200px;
     font-size: 23px;
     padding: 20px;
+    transform: rotate(-75deg);
+    position: absolute;
+    top: 250px;
+    left: -25px;
+    text-align: right;
+    font-family: retrosans;
 }
 
 .names1 {
     color: black;
     font-family: retrosans;
-    font-size: 23px;
-    background-color: rgb(230, 230, 230);
+    font-size: 26px;
+    background-color: transparent;
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 50px;
+    left: 30px;
 }
 
 .names2 {
     color: black;
     font-family: retrosans;
-    font-size: 30px;
-    background-color: rgb(230, 230, 230);
+    font-size: 32px;
+    background-color: transparent;
+    position: absolute;
+    transform: rotate(20deg);
+    top: 70px;
+    left: 250px;
+    width: 400px;
 }
 
 .textrightbtm {
     color: black;
     font-family: serif;
     font-size: 10px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 600px;
+    left: 500px;
+    text-align: left;
 }
 
 .boxmidbtm {
@@ -179,6 +211,11 @@ a:hover {
     font-size: 25px;
     padding: 20px;
     width: fit-content;
+    position: absolute;
+    width: 200px;
+    top: 500px;
+    left: 200px;
+    transform: rotate(-5deg);
 }
 
 .boxmidbtm2 {
@@ -188,14 +225,23 @@ a:hover {
     color: black;
     font-family: serif;
     font-style: italic;
+    position: absolute;
+    top: 640px;
+    left: 150px;
+    transform: rotate(75deg);
+    background-color: rgb(230, 230, 230);
 }
 
-.march2 {
+.march {
     font-family: retrosans;
     font-size: 25px;
     text-align: right;
-    width: 350px;
-    border: 2px solid rgb(230, 230, 230);
+    position: absolute;
+    width: 250px;
+    background-color: rgb(230, 230, 230);
+    transform: rotate(-35deg);
+    top: 600px;
+    color: black;
 }
 
 
@@ -223,48 +269,88 @@ a:hover {
 .ftextright {
     font-family: ftext;
     font-size: 25px;
-    text-align: right;
+    text-align: left;
     color: black;
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 0px;
 }
 
 .ftextbtm {
     font-family: ftext;
     text-align: center;
     color: black;
+    position: absolute;
+    left: 43%;
+    bottom: 2px;
 }
 
 .firstfinger {
     background-color: rgb(17, 22, 58);
     width: 50px;
     height: 80px;
+    position: absolute;
+    right: 20px;
+    transform: rotate(15deg);
+    top: 400px;
+    border-radius: 30%;
+    filter: blur(2px);
 }
 
 .secondfinger {
     background-color: rgb(17, 22, 58);
     width: 50px;
     height: 200px;
+    position: absolute;
+    transform: rotate(10deg);
+    top: 180px;
+    right: 160px;
+    border-radius: 30%;
+    filter: blur(2px);
 }
 
 .thirdfinger {
     background-color: rgb(17, 22, 58);
     width: 50px;
     height: 220px;
+    position: absolute;
+    top: 130px;
+    right: 270px;
+    border-radius: 30%;
+    filter: blur(2px);
 }
 
 .fourthfinger {
     background-color: rgb(17, 22, 58);
     width: 50px;
-    height: 200px;
+    height: 210px;
+    position: absolute;
+    top: 150px;
+    right: 360px;
+    transform: rotate(-10deg);
+    border-radius: 30%;
+    filter: blur(2px);
 }
 
 .fifthfinger {
     background-color: rgb(17, 22, 58);
     width: 50px;
-    height: 170px;
+    height: 140px;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    transform: rotate(-30deg);
+    border-radius: 30%;
+    filter: blur(2px);
 }
 
 .palm {
     background-color: rgb(17, 22, 58);
-    width: 300px;
-    height: 320px;
+    width: 250px;
+    height: 260px;
+    position: absolute;
+    top: 410px;
+    left: 150px;
+    border-radius: 30%;
+    filter: blur(2px);
 }
