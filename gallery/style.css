@@ -59,7 +59,7 @@ a:hover {
 
 @font-face {
     font-family: eulyoo;
-    src: url(/gallery/Eulyoo1945-SemiBold.otf);
+    src: url(/gallery/eulyoo1945semibold.otf);
 }
 
 .ttext {
@@ -117,7 +117,7 @@ a:hover {
 
 @font-face {
     font-family: retrosans;
-    src: url(/gallery/establish\ Retrosans\ OTF.otf);
+    src: url(/gallery/establishretrosansotf.otf);
 }
 
 .nubodies {
@@ -134,7 +134,7 @@ a:hover {
 
 @font-face {
     font-family: americantypewriter;
-    src: url(/gallery/AmericanTypewriter.ttc);
+    src: url(/gallery/americantypewriter.ttc);
 }
 
 .detroitfocus {
