@@ -40,7 +40,7 @@ a:hover {
     background-color: white;
     height: 800px;
     width: 600px;
-    z-index: -2;
+    z-index: -5;
 }
 
 .tblack {
@@ -50,12 +50,14 @@ a:hover {
     position: relative;
     left: 12.5px;
     top: 12.5px;
+    z-index: -4;
 }
 
 .ttextbackground1 {
     width: 35px;
     height: 733px;
     background-image: linear-gradient(#f8516a, #ef8a71, #eed885, #eee98f, #cad890, #83b593, #6ca49e, #4991ae, #3360aa, #2f4395, #40358c, #6d3d91);
+    z-index: 1;
 }
 
 @font-face {
@@ -76,22 +78,26 @@ a:hover {
 
 .ttextleft {
     text-align: left;
+    z-index: 2;
 }
 
 .ttextright {
     text-align: left;
     position: relative;
     left: 505px;
+    z-index: 2;
 }
 
 .ga {
     background-color: #f8516a;
     position: absolute;
-    top: 0%;
+    top: 150px;
     left: 0%;
-    width: 575px;
+    width: 610px;
     height: 35px;
     opacity: 70%;
+    transform: rotate(30deg);
+    z-index: -1;
 }
 
 .na {
@@ -102,16 +108,219 @@ a:hover {
     width: 575px;
     height: 35px;
     opacity: 70%;
+    z-index: -1;
 }
 
 .da {
     background-color: #eebe8f;
     position: absolute;
-    top: 70px;
+    top: 40px;
     left: 0%;
     width: 575px;
     height: 35px;
     opacity: 70%;
+    transform: rotate(-8deg);
+    z-index: -1;
+}
+
+.ra {
+    background-color: #eee98f;
+    position: absolute;
+    top: 150px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    transform: rotate(8deg);
+    z-index: -1;
+}
+
+.ma {
+    background-color: #f0f59e;
+    position: absolute;
+    top: 185px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    transform: rotate(8deg);
+    z-index: -1;
+}
+
+.ba {
+    background-color: #e8f59e;
+    position: absolute;
+    top: 250px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    transform: rotate(15deg);
+    z-index: -1;
+}
+
+.sa {
+    background-color: #e1f59e;
+    position: absolute;
+    top: 340px;
+    left: 0%;
+    width: 600px;
+    height: 35px;
+    opacity: 70%;
+    transform: rotate(22deg);
+    z-index: -1;
+}
+
+.a {
+    background-color: #ccf59e;
+    position: absolute;
+    top: 180px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    transform: rotate(-15deg);
+    z-index: -1;
+}
+
+.ja {
+    background-color: #b1f59e;
+    position: absolute;
+    top: 180px;
+    left: 0%;
+    width: 585px;
+    height: 35px;
+    opacity: 70%;
+    transform: rotate(-22deg);
+    z-index: -1;
+}
+
+.cha {
+    background-color: #83b593;
+    position: absolute;
+    top: 480px;
+    left: 0%;
+    width: 600px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+    transform: rotate(30deg);
+}
+
+.ka {
+    background-color: #75b89d;
+    position: absolute;
+    top: 365px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.ta {
+    background-color: #6bb1b8;
+    position: absolute;
+    top: 400px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.pa {
+    background-color: #75b8b4;
+    position: absolute;
+    top: 290px;
+    left: -10px;
+    width: 620px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+    transform: rotate(-30deg);
+}
+
+.ha {
+    background-color: #6a98b5;
+    position: absolute;
+    top: 370px;
+    left: 0%;
+    width: 590px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+    transform: rotate(-23deg);
+}
+
+.gga {
+    background-color: #6b84b8;
+    position: absolute;
+    top: 510px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.dda {
+    background-color: #6b72b8;
+    position: absolute;
+    top: 520px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+    transform: rotate(-7deg);
+}
+
+.ppa {
+    background-color: #6b5aa9;
+    position: absolute;
+    top: 640px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+    transform: rotate(12deg);
+}
+
+.ssa {
+    background-color: #866bb8;
+    position: absolute;
+    top: 590px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+    transform: rotate(-8deg);
+}
+
+.jja {
+    background-color: #704f95;
+    position: absolute;
+    top: 660px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.extra {
+    background-color: #8b5daa;
+    position: absolute;
+    top: 650px;
+    left: 0%;
+    width: 575px;
+    height: 35px;
+    opacity: 70%;
+    z-index: -1;
+    transform: rotate(-10deg);
 }
 
 .ttitle {
