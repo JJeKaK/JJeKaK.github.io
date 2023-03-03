@@ -83,6 +83,16 @@ a:hover {
     left: 505px;
 }
 
+.ga {
+    background-color: #f8516a;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 575px;
+    height: 30px;
+    opacity: 70%;
+}
+
 .ttitle {
     color: black;
     position: relative;
