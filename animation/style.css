@@ -2,15 +2,33 @@ body {
     background-color: black;
 }
 
-/* sphere animation */
 @keyframes floating {
     0% {
-        transform: translateY(0px);
+        transform: translateY(0%);
         filter: blur(0);
     }
-    100% {
-        transform: translateY(500px);
+    50% {
+        transform: translateY(-100%);
         filter: blur(10px);
+    }
+    100% {
+        transform: translateY(100%);
+        filter: blur(10px);
+    }
+}
+
+@keyframes floatingtwo {
+    100% {
+        transform: translateY(-100%);
+        filter: blur(10px);
+    }
+    50% {
+        transform: translateY(100%);
+        filter: blur(10px);
+    }
+    0% {
+        transform: translateY(0%);
+        filter: blur(0);
     }
 }
 
@@ -22,10 +40,18 @@ body {
     animation: floating 3s infinite alternate ease-in-out;
 }
 
+.spheretwo {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 250, 192);
+    border-radius: 50%;
+    animation: floatingtwo 3s infinite alternate ease-in-out;
+}
+
 /* hangul animation */
 .hangul {
     width: 800px;
-    animation: hangul 3s infinite ease-in-out;
+    animation: hangul 3s ease-in-out;
 }
 
 body {
@@ -37,8 +63,10 @@ body {
 @keyframes hangul {
     0% {
         transform: rotate(0turn);
+        filter: blur(100px);
     }
     100%{
         transform: rotate(1turn);
+        filter: blur(0);
     }
 }
