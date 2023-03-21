@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+.frame {
+    width: 95vw;
+    height: 57vw;
+    background: white;
+    margin: 2.5vw auto;
+    position: relative;
+}
