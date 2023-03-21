@@ -5,7 +5,138 @@ body {
 .frame {
     width: 95vw;
     height: 57vw;
-    background: white;
+    background: linear-gradient(
+        to bottom,
+        rgb(137, 147, 153) 50%, 
+        rgb(224, 222, 216) 50%
+    );
     margin: 2.5vw auto;
     position: relative;
+}
+
+.blanket {
+    width: 90vw;
+    height: 25vw;
+    background: repeating-linear-gradient(
+        to right,
+        rgb(234, 88, 85),
+        rgb(234, 88, 85) 10px,
+        white 10px,
+        white 20px
+    );
+    position: relative;
+    top: 30vw;
+    left: 2.5vw;
+}
+
+.blackbook {
+    width: 15vw;
+    height: 20vw;
+    background: linear-gradient(
+        to right,
+        white 5px,
+        black 9%
+    );
+    position: absolute;
+    top: -13vw;
+    left: 21vw;
+    transform: rotate(-10deg);
+    outline-color: black;
+    outline: auto;
+}
+
+.redbook {
+    width: 20vw;
+    height: 15vw;
+    background: linear-gradient(
+        to bottom,
+        rgb(183, 165, 99) 90%,
+        rgb(213, 36, 13) 10%
+    );
+    position: absolute;
+    top: 7vw;
+    left: 17vw;
+    rotate: 5deg;
+}
+
+.apple {
+    width: 8vw;
+    height: 8vw;
+    background: rgb(210, 79, 79);
+    border-radius: 50%;
+    position: absolute;
+    top: 6vw;
+    left: 42vw;
+    z-index: 1;
+}
+
+.orange {
+    width: 9vw;
+    height: 9vw;
+    background: rgb(255, 115, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 1vw;
+    left: 48vw;
+}
+
+.mirror {
+    width: 15vw;
+    height: 15vw;
+    background: rgb(238, 236, 236);
+    border-radius: 50%;
+    position: absolute;
+    top: -13vw;
+    left: 60vw;
+}
+
+.mirroroutside {
+    width: 17vw;
+    height: 17vw;
+    background: whitesmoke;
+}
+
+.ball {
+    width: 9vw;
+    height: 9vw;
+    background: rgb(92, 68, 49);
+    border-radius: 50%;
+    position: absolute;
+    top: 3vw;
+    left: -2vw;
+}
+
+.glass {
+    width: 5vw;
+    height: 20vw;
+    background: linear-gradient(
+        to bottom,
+        transparent, transparent, transparent,
+        lightgrey, lightgrey, lightgrey
+    );
+    border-radius: 40%;
+    position: absolute;
+    top: -20vw;
+    left: 42vw;
+}
+
+.glassbase {
+    width: 1vw;
+    height: 10vw;
+    background: lightgrey;
+    position: absolute;
+    top: 0vw;
+    left: 44vw;
+}
+
+.toblerone {
+
+}
+
+.tape1 {
+
+}
+
+.tape2 {
+
 }
