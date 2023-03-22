@@ -88,18 +88,27 @@ body {
     position: absolute;
     top: -13vw;
     left: 60vw;
+    z-index: 1;
 }
 
 .mirroroutside {
     width: 17vw;
     height: 17vw;
-    background: whitesmoke;
+    background: transparent;
+    outline: auto;
+    outline-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -14vw;
+    left: 59vw;
 }
+
+
 
 .ball {
     width: 9vw;
     height: 9vw;
-    background: rgb(92, 68, 49);
+    background: rgb(117, 89, 67);
     border-radius: 50%;
     position: absolute;
     top: 3vw;
@@ -130,13 +139,25 @@ body {
 }
 
 .toblerone {
-
+    width: 28vw;
+    height: 7vw;
+    background: rgb(37, 37, 37);
+    position: absolute;
+    top: 11vw;
+    left: 60vw;
+    rotate: 5deg;
 }
 
-.tape1 {
-
-}
-
-.tape2 {
-
+.toblerone1 {
+    color: red;
+    font-size: 60px;
+    -webkit-text-stroke: 1px gold;
+    width: 27vw;
+    height: 7vw;
+    position: absolute;
+    top: 11vw;
+    left: 62vw;
+    rotate: 5deg;
+    font: bold;
+    font-family: sans-serif;
 }
