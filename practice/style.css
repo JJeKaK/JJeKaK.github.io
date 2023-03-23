@@ -1,0 +1,12 @@
+.gallery-img {
+    max-width: 30vw;
+}
+
+.gallery {
+    display: flex;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
