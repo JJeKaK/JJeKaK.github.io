@@ -3,32 +3,31 @@ const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
 
-
 	// Loop through each item in the collection array
-	collection.forEach(item => {
+	collection.forEach((item) => {
 		const listItem = document.createElement('li') // Make the `li`
 
 
 		// You can make each element inside of that…
 		const itemTitle = document.createElement('h2') // Make an `h2`
-		itemTitle.innerHTML = item.title // Put the JSON title inside
-		listItem.appendChild(itemTitle) // And add it to the `li`!
+		itemTitle.innerHTML = item.address // Put the JSON title inside
+		listItem.appendChild(address) // And add it to the `li`!
 
 		const itemImage = document.createElement('iframe') // And an image
-		itemImage.src = item.frame // Set the `src` attribute from the JSON
+		itemImage.src = item.iframe // Set the `src` attribute from the JSON
 		listItem.appendChild(itemImage) // And add that too
 
 
-		// This can get annoying, so we can use “template literals” instead
-		const itemDetails =
-			`
-				<p>Distance from guess: <time>${item.miles}</time> Miles</p>
-				<p>Points: <em>${item.points}</em></p>
-				<a href="${item.link}">
-					<p>${item.number} / 5 →</p>
-				</a>
-			`
-		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
+		// // This can get annoying, so we can use “template literals” instead
+		// const itemDetails =
+		// 	`
+		// 		<p>Distance from guess: <time>${item.miles}</time> Miles</p>
+		// 		<p>Points: <em>${item.points}</em></p>
+		// 		<a href="${item.link}">
+		// 			<p>${item.number} / 5 →</p>
+		// 		</a>
+		// 	`
+		// listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
 		// You can build logic from your data, too
 		if (!item.alsoWriter) { // If this is `false`
@@ -41,10 +40,8 @@ const renderItems = (collection) => {
 
 
 
-// Fetch gets your JSON file…
-fetch('collection.json')
-	.then(response => response.json())
-	.then(collection => {
-		// And passes the data to the function, above!
-		renderItems(collection.reverse()) // In reverse order
-	})
+// Fetch gets your JSON file… 
+fetch("/jsonpractice/collection.json")
+	.then((response) => response.json())
+	.then((data) => console.log(data)
+    );
