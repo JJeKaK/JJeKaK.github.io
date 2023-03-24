@@ -4,7 +4,7 @@
         "monthlyFee": "$3920",
         "bathrooms": "3",
         "school": "35 minutes away",
-        "iframe": "https://goo.gl/maps/CDjf56q43ecz4X8Z7",
+        "iframe": "https://www.google.com/maps/embed?pb=!4v1679679136988!6m8!1m7!1sGsKdS4h5WUhcWh13OZPtjA!2m2!1d40.78592786397643!2d-73.94277651267781!3f128.29!4f0!5f0.7820865974627469",
         "imdLink": "https://goo.gl/maps/dG2mRvC266CABWkx9"
     },
 
@@ -13,25 +13,25 @@
         "monthlyFee":"$4495",
         "bathrooms":"2",
         "school":"25 minutes away",
-        "iframe":"https://goo.gl/maps/s52PY1pfPX2tW1jm9",
+        "iframe":"https://www.google.com/maps/embed?pb=!4v1679679232891!6m8!1m7!1scSoSPJgTtWw51dab6JxAqQ!2m2!1d40.81397033036061!2d-73.92925259939277!3f113.24!4f0!5f0.7820865974627469",
         "imdLink":"https://goo.gl/maps/9M95VrrsUj2KyYCMA"
     },
 
     {
-        "address":"7 Bushwick Ct #2, Brooklyn, NY 11206",
+        "address":"7 Bushwick Ct, Brooklyn, NY 11206",
         "monthlyFee":"$4100",
         "bathrooms":"1",
         "school":"20 minutes away",
-        "iframe":"https://goo.gl/maps/Y7gYbQUQJvikPWxw6",
+        "iframe":"https://www.google.com/maps/embed?pb=!4v1679679308711!6m8!1m7!1sN8i7GQhFvZe10woKK2FYdQ!2m2!1d40.70468748949295!2d-73.93857014083217!3f167.33!4f0!5f0.7820865974627469",
         "imdLink":"https://goo.gl/maps/7tM7GsvzpBbSLrrW9"
     },
 
     {
-        "address":"1567 2nd Ave #4, New York, NY 10028",
+        "address":"1567 2nd Ave, New York, NY 10028",
         "monthlyFee":"$4500",
         "bathrooms":"2",
         "school":"25 minutes away",
-        "iframe":"https://goo.gl/maps/9XXrVhWz3w6ZCJP18",
+        "iframe":"https://www.google.com/maps/embed?pb=!4v1679679374175!6m8!1m7!1stufng1xd-fEm6DCMNcRgEQ!2m2!1d40.77487763663725!2d-73.95400062089983!3f318.1432!4f0!5f0.7820865974627469",
         "imdLink":"https://goo.gl/maps/W4FQS76NFgGDEZVT6"
     },
 
@@ -40,7 +40,7 @@
         "monthlyFee":"$4550",
         "bathrooms":"2",
         "school":"40 minutes away",
-        "iframe":"https://goo.gl/maps/Zm6nBzF1dcfdz85B7",
+        "iframe":"https://www.google.com/maps/embed?pb=!4v1679679399903!6m8!1m7!1sFkYRqMop9w32oRn4K9DKlg!2m2!1d40.77240201063388!2d-73.92583171389033!3f297.43!4f0!5f0.7820865974627469",
         "imdLink":"https://goo.gl/maps/V8Tdd1Jq1QvtVgUm6"
     }
 ]
