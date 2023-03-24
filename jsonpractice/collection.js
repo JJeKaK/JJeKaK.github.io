@@ -12,7 +12,6 @@ const renderItems = (collection) => {
 		gglImage.src = item.iframe
 		listItem.appendChild(gglImage)
 
-		// template literals
 		const itemDetails =
 			`
                 <p>Monthly Fee: ${item.monthlyFee}</p>
@@ -23,9 +22,9 @@ const renderItems = (collection) => {
 				</a>
                 <br>
             `
-		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
+		listItem.insertAdjacentHTML('beforeend', itemDetails)
 
-		collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
+		collectionList.appendChild(listItem)
 	})
 }
 
