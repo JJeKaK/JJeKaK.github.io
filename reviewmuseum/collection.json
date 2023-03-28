@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Everything Everywhere All at Once",
+        "released":"2022",
+        "genre":"Comedy / Adventure",
+        "Tomatometer":"94%",
+        "AudienceScore":"86%",
+        "review1":"보면서 정신이 색종이 조각으로 터져버린다. 증식하는 조각 하나하나는 나의 부족함 속 가능성의 우주를 비춘다. 친절하자. 사랑하자. 지금 여기서. (세븐틴 버논)",
+        "review1trans":"Your brain will burst into confetti. Each and every piece reflects back a universe of possibilities in my shortcomings. Let’s be kind. Let’s love each other. Right away. (Vernon of Seventeen)",
+        "review2":"Raising an ecstatic hot dog middle finger to the negativity of modern times, “EEAAO” urges us to free our minds and accept that it’s OK to be strange. (Peter Howell)",
+        "review3":"The most brilliantly bananas movie of 2022 absolutely lives up to its title. Michelle Yeoh kicks all types of butt as a time-traveling laundromat manager in a multiverse of madness. (Larushka Ivan-Zadeh)"
+    },
+
+    {
+        "name":"Get Out",
+        "released":"2017",
+        "genre":"Horror / Mystery / Thriller",
+        "Tomatometer":"98%",
+        "AudienceScore":"86%"
+    },
+
+    {
+        "name":"Fight Club",
+        "released":"1999",
+        "genre":"Mystery / Thriller / Drama", 
+        "Tomatometer":"79%",
+        "AudienceScore":"96%"
+    },
+
+    {
+        "name":"La La Land",
+        "released":"2016",
+        "genre":"Musical / Romance",
+        "Tomatometer":"91%",
+        "AudienceScore":"81%"
+    },
+
+    {
+        "name":"Eternal Sunshine",
+        "released":"2004",
+        "genre":"Romance / Sci-fi",
+        "Tomatometer":"92%",
+        "AudienceScore":"94%"
+    },
+
+    {
+        "name":"Your Name",
+        "released":"2016",
+        "genre":"Fantasy / Romance",
+        "Tomatometer":"98%",
+        "AudienceScore":"94%"
+    },
+
+    {
+        "name":"Hidden Figures",
+        "released":"2016",
+        "genre":"History / Drama",
+        "Tomatometer":"93%",
+        "AudienceScore":"93%"
+    },
+
+    {
+        "name":"Mad Max: Fury Road",
+        "released":"2015",
+        "genre":"Action / Adventure",
+        "Tomatometer":"97%",
+        "AudienceScore":"86%"
+    },
+
+    {
+        "name":"Searching",
+        "released":"2018",
+        "genre":"Mystery / Thriller",
+        "Tomatometer":"92%",
+        "AudienceScore":"87%"
+    },
+
+    {
+        "name":"Se7en",
+        "released":"1995",
+        "genre":"Mystery / Thriller / Crime", 
+        "Tomatometer":"82%",
+        "AudienceScore":"95%"
+    },
+
+    {
+        "name":"The Imitation Game",
+        "released":"2014",
+        "genre":"History / Drama",
+        "Tomatometer":"90%",
+        "AudienceScore":"91%"
+    },
+
+    {
+        "name":"Nope",
+        "released":"2022",
+        "genre":"Sci-fi / Horror",
+        "Tomatometer":"83%",
+        "AudienceScore":"69%"
+    },
+
+    {
+        "name":"Top Gun: Maverick",
+        "released":"2022",
+        "genre":"Action / Adventure",
+        "Tomatometer":"96%",
+        "AudienceScore":"99%"
+    },
+
+    {
+        "name":"Cruella",
+        "released":"2021",
+        "genre":"Comedy / Family",
+        "Tomatometer":"75%",
+        "AudienceScore":"97%"
+    },
+
+    {
+        "name":"Minari",
+        "released":"2020",
+        "genre":"Drama",
+        "Tomatometer":"98%",
+        "AudienceScore":"86%"
+    }
+]
