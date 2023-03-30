@@ -5,8 +5,8 @@
         "genre":"Comedy / Adventure",
         "Tomatometer":"94%",
         "AudienceScore":"86%",
-        "review1":"보면서 정신이 색종이 조각으로 터져버린다. 증식하는 조각 하나하나는 나의 부족함 속 가능성의 우주를 비춘다. 친절하자. 사랑하자. 지금 여기서. (세븐틴 버논)",
-        "review1trans":"Your brain will burst into confetti. Each and every piece reflects back a universe of possibilities in my shortcomings. Let’s be kind. Let’s love each other. Right away. (Vernon of Seventeen)",
+        "review1":"보면서 정신이 색종이 조각으로 터져버린다. 증식하는 조각 하나하나는 나의 부족함 속 가능성의 우주를 비춘다. 친절하자. 사랑하자. 지금 여기서. (버논)",
+        "review1trans":"Your brain will burst into confetti, and each and every piece reflects back a universe of possibilities in my shortcomings. Let’s be kind. Let’s love each other. Right away. (Vernon Chwe)",
         "review2":"Raising an ecstatic hot dog middle finger to the negativity of modern times, “EEAAO” urges us to free our minds and accept that it’s OK to be strange. (Peter Howell)",
         "review3":"The most brilliantly bananas movie of 2022 absolutely lives up to its title. Michelle Yeoh kicks all types of butt as a time-traveling laundromat manager in a multiverse of madness. (Larushka Ivan-Zadeh)"
     },
@@ -16,7 +16,10 @@
         "released":"2017",
         "genre":"Horror / Mystery / Thriller",
         "Tomatometer":"98%",
-        "AudienceScore":"86%"
+        "AudienceScore":"86%",
+        "review1":"오바마 시대에 몇몇 트럼프가 꿈꿨을 검은 욕망. (허남웅)",
+        "review1trans":"The dark desire some Trumps would have dreamed of during Obama's period (Nam-woong Huh)",
+        "review2":"Peele seduces, subverts and manipulates audience expectations - as the masters Alfred Hitchcock, John Carpenter, and Stanley Kubrick did before him. (Anne Thompson)"
     },
 
     {
@@ -24,7 +27,10 @@
         "released":"1999",
         "genre":"Mystery / Thriller / Drama", 
         "Tomatometer":"79%",
-        "AudienceScore":"96%"
+        "AudienceScore":"96%",
+        "review1":"My daughter had a friend named Max. She told me ‘Fight Club’ is his favorite movie. I told her never to talk to Max again. (David Fincher)",
+        "review2":"현대 문명의 허상을 조롱하는 통렬한 블랙코미디. (이동진)",
+        "review2trans":"The scathing black comedy mocks the illusion of modern civilization. (Dong-jin Lee)"
     },
 
     {
@@ -32,7 +38,11 @@
         "released":"2016",
         "genre":"Musical / Romance",
         "Tomatometer":"91%",
-        "AudienceScore":"81%"
+        "AudienceScore":"81%",
+        "review1":"달콤쌉싸름한 그 모든 감정에 화룡점정하는 마법 같은 순간. (이동진)",
+        "review1trans":"A magical moment when you settle on all those sweet and bitter emotions. (Dong-jin Lee)",
+        "review2":"You think 'well thank God this landed. (Tom Hanks)",
+        "review3":"A gorgeously photographed, unashamedly nostalgic, bittersweet marriage of the modern and the traditional, proving Chazelle's fantastic eye for musical sequences. (Kambole Campbell)"
     },
 
     {
@@ -40,7 +50,12 @@
         "released":"2004",
         "genre":"Romance / Sci-fi",
         "Tomatometer":"92%",
-        "AudienceScore":"94%"
+        "AudienceScore":"94%",
+        "review1":"가장 독창적인 로맨스. (김형석)",
+        "review1trans":"The most original romance. (Hyung-suk Kim)",
+        "review2":"지금 사랑 영화가 내게 줄 수 있는 모든 것. (이동진)",
+        "review2trans":"Everything that romance film can give me right now. (Dong-jin Lee)",
+        "review3":"Eternal Sunshine of the Spotless Mind goes by like a fevered dream of love, but one you remember vividly, with profound pleasure. (Joe Morgenstern)"
     },
 
     {
@@ -48,7 +63,11 @@
         "released":"2016",
         "genre":"Fantasy / Romance",
         "Tomatometer":"98%",
-        "AudienceScore":"94%"
+        "AudienceScore":"94%",
+        "review1":"갈라지는 것들의 파괴력과 이어지는 것들의 치유력. 이 영화가 주는 감동의 태반은 끝내 연결하려는 안간힘에서 온다. (이동진)",
+        "review1trans":"The destructive power of the splitting and the healing power of the following. The big emotion comes from the desperate power to be connected. (Dong-jin Lee)",
+        "review2":"3・11だけではない、本作は歴史の全ての災害で失われた人々へのレクイエムであり、悲しみも喜びも背負ってこれからの時代を生きていく若者へのエールと希望を高らかに謳いあげた傑作だ。 ",
+        "review2trans":"Not only is this work a requiem for those lost in all disasters in history, but it is also a masterpiece that exudes awe and hope for young people who will live in the future with both sadness and joy. (Sugimoto Hotaka)"
     },
 
     {
@@ -56,7 +75,10 @@
         "released":"2016",
         "genre":"History / Drama",
         "Tomatometer":"93%",
-        "AudienceScore":"93%"
+        "AudienceScore":"93%",
+        "review1":"너무 매끄럽고 기분좋은 나머지, 차별과의 싸움이 쉬워 보이는 착시현상도. (김혜리)",
+        "review1trans":"An optical illusion in which fighting against discrimination seems easy since it is so smooth and pleasant. (Hye-ri Kim)",
+        "review2":"The film never relinquishes its tight focus on three remarkable individuals who repeatedly demonstrate that they, too, possess the right stuff. (Matt Brunson)"
     },
 
     {
@@ -64,7 +86,10 @@
         "released":"2015",
         "genre":"Action / Adventure",
         "Tomatometer":"97%",
-        "AudienceScore":"86%"
+        "AudienceScore":"86%",
+        "review1":"모래와 불과 금속의 발레. (두나)",
+        "review1trans":"A ballet of sand and fire and metal. (Duna)",
+        "review2":"A machine that roars at full throttle for two solid hours. (Jason Bailey)"
     },
 
     {
@@ -72,7 +97,13 @@
         "released":"2018",
         "genre":"Mystery / Thriller",
         "Tomatometer":"92%",
-        "AudienceScore":"87%"
+        "AudienceScore":"87%",
+        "review1":"바뀐 생활 방식에 눈을 맞춘 예술 매체의 형식. (허남웅)",
+        "review1trans":"A form of art expression focused on a changed way of life. (Nam-woong Huh)",
+        "review2":"인간의 감성을 이식받은 테크-스릴러. (장영엽)",
+        "review2trans":"A Tech-Thriller about transplanted human emotions. (young-yeop Jang)",
+        "review3":"스스로 부여한 형식의 장벽을 창의성의 발판으로. (이동진)",
+        "review3trans":"A self-imposed barrier as a stepping stone to creativity. (Dong-jin Lee)"
     },
 
     {
@@ -80,7 +111,10 @@
         "released":"1995",
         "genre":"Mystery / Thriller / Crime", 
         "Tomatometer":"82%",
-        "AudienceScore":"95%"
+        "AudienceScore":"95%",
+        "review1":"아이들을 낳아 키울 수 있을 만한 세상인가. 아니오. 아니오. 아니오. 아니오. 아니오. 아니오. 아니오. (이동진)",
+        "review1trans":"Is this a world where we can give birth to and raise babies? No. No. No. No. No. No. No. (Dong-jin Lee)",
+        "review2":"Worth seeing if you can look past the gruesome details. (Gene Siskel)"
     },
 
     {
@@ -88,7 +122,11 @@
         "released":"2014",
         "genre":"History / Drama",
         "Tomatometer":"90%",
-        "AudienceScore":"91%"
+        "AudienceScore":"91%",
+        "review1":"천재 신화를 완성하는 것은 세상과의 불화라는 비극성. (이동진)",
+        "review1trans":"The tragedy of completing a myth of genius is the inevitable conflict with the world. (Dong-jin Lee)",
+        "review2":"풀었으되 이겨내진 못했노라. (박평식)",
+        "review2trans":"Solved it, but didn't overcome it. (Pyeong-sik Park)"
     },
 
     {
@@ -96,7 +134,13 @@
         "released":"2022",
         "genre":"Sci-fi / Horror",
         "Tomatometer":"83%",
-        "AudienceScore":"69%"
+        "AudienceScore":"69%",
+        "review1":"눈과 카메라에 담은 두 개의 이미지로 경이롭게 다시 찍은 영화의 역사. (이동진)",
+        "review1trans":"The film's history is brilliantly retold through the combination of two images captured by the eyes and the camera. (Dong-jin Lee)",
+        "review2":"스펙터클이 당신을 죽일 거라는, 조던 필의 지나친 경고. (김철홍)",
+        "review2trans":"Jordan Peele's excessive warning that spectacle will kill you. (Chol-hong Kim)",
+        "review3":"부정할수록 긍정하게 되는 매혹적인 그것과 그것에 관한 기록 영화. (오진우)",
+        "review3trans":"The record about the thing that becomes more fascinating when you are trying to deny it. (Jin-woo Oh)"
     },
 
     {
@@ -104,7 +148,12 @@
         "released":"2022",
         "genre":"Action / Adventure",
         "Tomatometer":"96%",
-        "AudienceScore":"99%"
+        "AudienceScore":"99%",
+        "review1":"시네마의 시대는 끝났어. 알아. 하지만 오늘은 아니야. (송경원)",
+        "review1trans":"The cinema is over. I know. But not today. (gyeong-won Song)",
+        "review2":"기계가 인간을 대체해가는 시대에 아직은 어림없다고 외치는 사자후. (이동진)",
+        "review2trans":"In an era where machines are replacing humans, the lion's roar cries out: It's impossible yet. (Dong-jin Lee)",
+        "review3":"Pulls off a feat even trickier than a 4G inverted dive, delivering a long-belated sequel that surpasses its predecessor in a wildly entertaining style. (Rotten Tomatoes Critics Consensus)"
     },
 
     {
@@ -112,7 +161,10 @@
         "released":"2021",
         "genre":"Comedy / Family",
         "Tomatometer":"75%",
-        "AudienceScore":"97%"
+        "AudienceScore":"97%",
+        "review1":"맵시있게 변주된 캐릭터가 열정과 냉정 사이의 런웨이를 화려하게 누빈다. (이동진)",
+        "review1trans":"A character who embodies both passion and coolness walks the runway with a confident grace. (Dong-jin Lee)",
+        "review2":"These clothes are the boldest element of a movie that otherwise wears its supposed punk-rock influences like a kid discovering Hot Topic for the first time. (Angie Han)"
     },
 
     {
@@ -120,6 +172,11 @@
         "released":"2020",
         "genre":"Drama",
         "Tomatometer":"98%",
-        "AudienceScore":"86%"
+        "AudienceScore":"86%",
+        "review1":"미나리라는 단어가 흡사 간절한 기도문처럼 들린다. (이동진)",
+        "review1trans":"The word Mi-na-ri sounds like a desperate prayer. (Dong-jin Lee)",
+        "review2":"갈등으로 얽히고 화해로 설켜서 땅에 뿌리내리는 가족의 초상. (허남웅)",
+        "review2trans":"Portrait of a family entwined by conflict and rooted in reconciliation. (Nam-woong Huh)",
+        "review3":"What makes this more than just another formulaic feel-good film is the grit with which Chung evokes the hardscrabble lives of his characters, balancing the dreamier elements of the drama with a naturalism that keeps it rooted in reality. (Mark Kermode)"
     }
 ]
