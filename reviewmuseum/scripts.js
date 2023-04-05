@@ -4,10 +4,6 @@ const renderItems = (movieReviews) => {
 	movieReviews.forEach((movie) => {
 		const movieList = document.createElement('li')
 
-		// const gglImage = document.createElement('iframe')
-		// gglImage.src = item.iframe
-		// movieList.appendChild(gglImage)
-
 		const movieDescription =
 			`
                 <br>
