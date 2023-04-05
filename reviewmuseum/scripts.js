@@ -1,34 +1,31 @@
-const renderItems = (collection) => {
-    const collectionList = document.getElementById('movieReview')
+const renderItems = (movieReviews) => {
+    const movieReviewsList = document.getElementById('movieReviews')
     
-	collection.forEach((item) => {
-		const listItem = document.createElement('li')
-
-		const name = document.createElement('h1')
-		name.innerHTML = item.name
-		listItem.appendChild(name)
+	movieReviews.forEach((movie) => {
+		const movieList = document.createElement('li')
 
 		// const gglImage = document.createElement('iframe')
 		// gglImage.src = item.iframe
-		// listItem.appendChild(gglImage)
+		// movieList.appendChild(gglImage)
 
-		const itemDetails =
+		const movieDescription =
 			`
-                <p>Released date: ${item.released}</p>
-				<p>Genre: ${item.genre}</p>
-                <p>Tomatometer: ${item.Tomatometer}</p>
-                <p>AudienceScore: ${item.AudienceScore}</p>
-                <p>${item.review1}</p>
-                <p>${item.review1trans}</p>
-                <p>${item.review2}</p>
-                <p>${item.review2trans}</p>
-                <p>${item.review3}</p>
-                <p>${item.review3trans}</p>
+                <h1>Title: ${movie.name}</h1>
+                <p>Released date: ${movie.released}</p>
+				<p>Genre: ${movie.genre}</p>
+                <p>Tomatometer: ${movie.Tomatometer}</p>
+                <p>AudienceScore: ${movie.AudienceScore}</p>
+                <p>${movie.review1}</p>
+                <p>${movie.review1trans}</p>
+                <p>${movie.review2}</p>
+                <p>${movie.review2trans}</p>
+                <p>${movie.review3}</p>
+                <p>${movie.review3trans}</p>
                 <br>
             `
-		listItem.insertAdjacentHTML('beforeend', itemDetails)
+		movieList.insertAdjacentHTML('beforeend', movieDescription)
 
-		collectionList.appendChild(listItem)
+		movieReviewsList.appendChild(movieList)
 	})
 }
 
@@ -36,6 +33,6 @@ const renderItems = (collection) => {
 
 fetch('/reviewmuseum/collection.json')
 	.then((response) => response.json())
-	.then((collection) => {
-        renderItems(collection)
+	.then((movieReviews) => {
+        renderItems(movieReviews)
     });
