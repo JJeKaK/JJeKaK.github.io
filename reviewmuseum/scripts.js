@@ -14,6 +14,8 @@ const renderItems = (movieReviews) => {
                 <div class="box">
                 <h1>${movie.name}</h1>
                 <br>
+                ${movie.poster}
+                <br>
                 <p>Released date: ${movie.released}</p>
                 <br>
 				<p>Genre: ${movie.genre}</p>

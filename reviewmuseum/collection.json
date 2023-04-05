@@ -1,6 +1,7 @@
 [
     {
         "name": "Everything Everywhere All at Once",
+        "poster": "<img src='/reviewmuseum/posters/everythingeverywhereallatonce.jpeg'>",
         "released":"2022",
         "genre":"Comedy / Adventure",
         "Tomatometer":"94%",
@@ -15,6 +16,7 @@
 
     {
         "name":"Get Out",
+        "poster": "<img src='/reviewmuseum/posters/getout.jpg'>",
         "released":"2017",
         "genre":"Horror / Mystery / Thriller",
         "Tomatometer":"98%",
@@ -29,6 +31,7 @@
 
     {
         "name":"Fight Club",
+        "poster": "<img src='/reviewmuseum/posters/fightclub.jpeg'>",
         "released":"1999",
         "genre":"Mystery / Thriller / Drama", 
         "Tomatometer":"79%",
@@ -43,6 +46,7 @@
 
     {
         "name":"La La Land",
+        "poster": "<img src='/reviewmuseum/posters/lalaland.webp'>",
         "released":"2016",
         "genre":"Musical / Romance",
         "Tomatometer":"91%",
@@ -57,6 +61,7 @@
 
     {
         "name":"Eternal Sunshine",
+        "poster": "<img src='/reviewmuseum/posters/eternalsunshine.jpg'>",
         "released":"2004",
         "genre":"Romance / Sci-fi",
         "Tomatometer":"92%",
@@ -71,6 +76,7 @@
 
     {
         "name":"Your Name",
+        "poster": "<img src='/reviewmuseum/posters/yourname.jpg'>",
         "released":"2016",
         "genre":"Fantasy / Romance",
         "Tomatometer":"98%",
@@ -85,6 +91,7 @@
 
     {
         "name":"Hidden Figures",
+        "poster": "<img src='/reviewmuseum/posters/hiddenfigures.jpg'>",
         "released":"2016",
         "genre":"History / Drama",
         "Tomatometer":"93%",
@@ -99,6 +106,7 @@
 
     {
         "name":"Mad Max: Fury Road",
+        "poster": "<img src='/reviewmuseum/posters/madmax.jpg'>",
         "released":"2015",
         "genre":"Action / Adventure",
         "Tomatometer":"97%",
@@ -113,6 +121,7 @@
 
     {
         "name":"Searching",
+        "poster": "<img src='/reviewmuseum/posters/searching.jpg'>",
         "released":"2018",
         "genre":"Mystery / Thriller",
         "Tomatometer":"92%",
@@ -127,6 +136,7 @@
 
     {
         "name":"Se7en",
+        "poster": "<img src='/reviewmuseum/posters/se7en.jpg'>",
         "released":"1995",
         "genre":"Mystery / Thriller / Crime", 
         "Tomatometer":"82%",
@@ -141,6 +151,7 @@
 
     {
         "name":"The Imitation Game",
+        "poster": "<img src='/reviewmuseum/posters/theimitationgame.jpg'>",
         "released":"2014",
         "genre":"History / Drama",
         "Tomatometer":"90%",
@@ -155,6 +166,7 @@
 
     {
         "name":"Nope",
+        "poster": "<img src='/reviewmuseum/posters/nope.jpg'>",
         "released":"2022",
         "genre":"Sci-fi / Horror",
         "Tomatometer":"83%",
@@ -169,6 +181,7 @@
 
     {
         "name":"Top Gun: Maverick",
+        "poster": "<img src='/reviewmuseum/posters/topgun.jpg'>",
         "released":"2022",
         "genre":"Action / Adventure",
         "Tomatometer":"96%",
@@ -183,6 +196,7 @@
 
     {
         "name":"Cruella",
+        "poster": "<img src='/reviewmuseum/posters/cruella.jpg'>",
         "released":"2021",
         "genre":"Comedy / Family",
         "Tomatometer":"75%",
@@ -197,6 +211,7 @@
 
     {
         "name":"Minari",
+        "poster": "<img src='/reviewmuseum/posters/minari.jpeg'>",
         "released":"2020",
         "genre":"Drama",
         "Tomatometer":"98%",
