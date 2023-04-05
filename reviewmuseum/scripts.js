@@ -1,5 +1,5 @@
 const renderItems = (collection) => {
-    const collectionList = document.getElementById('collection')
+    const collectionList = document.getElementById('movieReview')
     
 	collection.forEach((item) => {
 		const listItem = document.createElement('li')
