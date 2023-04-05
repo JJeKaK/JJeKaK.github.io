@@ -1,21 +1,27 @@
 * {
     background-color: black;
-    font-family: favoritHangul;
 }
 
 @font-face {
-    font-family: favoritHangul;
+    font-family: favoritHangul1;
     src: url(/reviewmuseum/FavoritHangul-Medium.otf);
 }
 
 h1 {
     text-align: center;
     font-size: x-large;
+    font-family: favoritHangul1;
+}
+
+@font-face {
+    font-family: favoritHangul2;
+    src: url(/reviewmuseum/FavoritHangul-Light.otf);
 }
 
 p {
     text-align: center;
     font-size: medium;
+    font-family: favoritHangul2;
 }
 
 .box {
