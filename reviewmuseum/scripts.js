@@ -4,7 +4,7 @@ const renderItems = (collection) => {
 	collection.forEach((item) => {
 		const listItem = document.createElement('li')
 
-		const name = document.createElement('h2')
+		const name = document.createElement('h1')
 		name.innerHTML = item.name
 		listItem.appendChild(name)
 
