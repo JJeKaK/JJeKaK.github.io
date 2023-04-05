@@ -1,0 +1,34 @@
+* {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@font-face {
+    font-family: favoritHangul1;
+    src: url(/reviewmuseum/FavoritHangul-Medium.otf);
+}
+
+h1 {
+    font-family: favoritHangul1;
+}
+
+@font-face {
+    font-family: favoritHangul2;
+    src: url(/reviewmuseum/FavoritHangul-Light.otf);
+}
+
+p {
+    font-family: favoritHangul2;
+}
+
+:any-link {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+:any-link:hover {
+    text-decoration: none;
+    color: skyblue;
+}
