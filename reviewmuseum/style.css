@@ -1,0 +1,27 @@
+* {
+    background-color: black;
+    font-family: favoritHangul;
+}
+
+@font-face {
+    font-family: favoritHangul;
+    src: url(/reviewmuseum/FavoritHangul-Medium.otf);
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+}
+
+.box {
+    background-color: lightgrey;
+    /* width: 60%;
+    border: 3px solid white; */
+    padding: 5%;
+    margin: auto;
+}
