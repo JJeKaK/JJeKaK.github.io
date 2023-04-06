@@ -29,7 +29,7 @@ p {
 
 body {
     position: relative;
-    -webkit-animation: moving 5s;
+    animation: moving 5s;
     animation-name: movingTexts;
     transition-timing-function: ease-in-out;
 }
