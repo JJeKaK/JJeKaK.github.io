@@ -7,27 +7,27 @@ const renderItems = (movieReviews) => {
 		const movieDescription =
 			`
                 <br>
-                <div class="box">
-                <h1>${movie.name}</h1>
-                <br>
-                ${movie.poster}
-                <br>
-                <p>Released date: ${movie.released}</p>
-                <br>
-				<p>Genre: ${movie.genre}</p>
-                <br>
-                <p>Tomatometer: ${movie.Tomatometer}</p>
-                <br>
-                <p>AudienceScore: ${movie.AudienceScore}</p>
-                <br>
-                <p>${movie.review1}</p>
-                <p>${movie.review1trans}</p>
-                <br>
-                <p>${movie.review2}</p>
-                <p>${movie.review2trans}</p>
-                <br>
-                <p>${movie.review3}</p>
-                <p>${movie.review3trans}</p>
+                <div class="box" id="${movie.id}">
+                    <h1>${movie.name}</h1>
+                    <br>
+                    ${movie.poster}
+                    <br>
+                    <p>Released date: ${movie.released}</p>
+                    <br>
+                    <p>Genre: ${movie.genre}</p>
+                    <br>
+                    <p>Tomatometer: ${movie.Tomatometer}</p>
+                    <br>
+                    <p>AudienceScore: ${movie.AudienceScore}</p>
+                    <br>
+                    <p>${movie.review1}</p>
+                    <p>${movie.review1trans}</p>
+                    <br>
+                    <p>${movie.review2}</p>
+                    <p>${movie.review2trans}</p>
+                    <br>
+                    <p>${movie.review3}</p>
+                    <p>${movie.review3trans}</p>
                 </div>
             `
 		movieList.insertAdjacentHTML('beforeend', movieDescription)

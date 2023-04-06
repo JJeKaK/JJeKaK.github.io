@@ -13,6 +13,25 @@ h1 {
     font-family: favoritHangul1;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+h2 {
+    text-align: left;
+    font-size: medium;
+    font-family: favoritHangul1;
+    display: block;
+    padding: 2%;
+    color: crimson;
+}
+
+:any-link:hover {
+    color: slategrey;
+}
+
 @font-face {
     font-family: favoritHangul2;
     src: url(/reviewmuseum/FavoritHangul-Light.otf);

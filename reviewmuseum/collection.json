@@ -1,6 +1,7 @@
 [
     {
         "name": "Everything Everywhere All at Once",
+        "id": "eeaao",
         "poster": "<img src='/reviewmuseum/posters/everythingeverywhereallatonce.jpeg'>",
         "released":"2022",
         "genre":"Comedy / Adventure",
@@ -15,7 +16,8 @@
     },
 
     {
-        "name":"Get Out",
+        "name":">Get Out",
+        "id": "go",
         "poster": "<img src='/reviewmuseum/posters/getout.jpg'>",
         "released":"2017",
         "genre":"Horror / Mystery / Thriller",
@@ -31,6 +33,7 @@
 
     {
         "name":"Fight Club",
+        "id": "fc",
         "poster": "<img src='/reviewmuseum/posters/fightclub.jpeg'>",
         "released":"1999",
         "genre":"Mystery / Thriller / Drama", 
@@ -46,6 +49,7 @@
 
     {
         "name":"La La Land",
+        "id": "lll",
         "poster": "<img src='/reviewmuseum/posters/lalaland.webp'>",
         "released":"2016",
         "genre":"Musical / Romance",
@@ -61,6 +65,7 @@
 
     {
         "name":"Eternal Sunshine",
+        "id": "es",
         "poster": "<img src='/reviewmuseum/posters/eternalsunshine.jpg'>",
         "released":"2004",
         "genre":"Romance / Sci-fi",
@@ -76,6 +81,7 @@
 
     {
         "name":"Your Name",
+        "id": "yn",
         "poster": "<img src='/reviewmuseum/posters/yourname.jpg'>",
         "released":"2016",
         "genre":"Fantasy / Romance",
@@ -91,6 +97,7 @@
 
     {
         "name":"Hidden Figures",
+        "id": "hf",
         "poster": "<img src='/reviewmuseum/posters/hiddenfigures.jpg'>",
         "released":"2016",
         "genre":"History / Drama",
@@ -106,6 +113,7 @@
 
     {
         "name":"Mad Max: Fury Road",
+        "id": "mm",
         "poster": "<img src='/reviewmuseum/posters/madmax.jpg'>",
         "released":"2015",
         "genre":"Action / Adventure",
@@ -121,6 +129,7 @@
 
     {
         "name":"Searching",
+        "id": "s",
         "poster": "<img src='/reviewmuseum/posters/searching.jpg'>",
         "released":"2018",
         "genre":"Mystery / Thriller",
@@ -136,6 +145,7 @@
 
     {
         "name":"Se7en",
+        "id": "se",
         "poster": "<img src='/reviewmuseum/posters/se7en.jpg'>",
         "released":"1995",
         "genre":"Mystery / Thriller / Crime", 
@@ -151,6 +161,7 @@
 
     {
         "name":"The Imitation Game",
+        "id": "tig",
         "poster": "<img src='/reviewmuseum/posters/theimitationgame.jpg'>",
         "released":"2014",
         "genre":"History / Drama",
@@ -166,6 +177,7 @@
 
     {
         "name":"Nope",
+        "id": "n",
         "poster": "<img src='/reviewmuseum/posters/nope.jpg'>",
         "released":"2022",
         "genre":"Sci-fi / Horror",
@@ -181,6 +193,7 @@
 
     {
         "name":"Top Gun: Maverick",
+        "id": "tg",
         "poster": "<img src='/reviewmuseum/posters/topgun.jpg'>",
         "released":"2022",
         "genre":"Action / Adventure",
@@ -196,6 +209,7 @@
 
     {
         "name":"Cruella",
+        "id": "c",
         "poster": "<img src='/reviewmuseum/posters/cruella.jpg'>",
         "released":"2021",
         "genre":"Comedy / Family",
@@ -211,6 +225,7 @@
 
     {
         "name":"Minari",
+        "id": "m",
         "poster": "<img src='/reviewmuseum/posters/minari.jpeg'>",
         "released":"2020",
         "genre":"Drama",
