@@ -1,7 +1,8 @@
 * {
-    background-color: white;
-    color: black;
+    color: white;
     text-align: center;
+    background-image: url(/reviewmuseum/seats.jpeg);
+    background-size: cover;
 }
 
 @font-face {
@@ -11,8 +12,9 @@
 
 h1 {
     font-family: favoritHangul1;
-    font-size: x-large;
+    font-size: xx-large;
     margin: 5%;
+    padding: 5px;
 }
 
 @font-face {
@@ -25,13 +27,28 @@ p {
     margin: 3%;
 }
 
+body {
+    position: relative;
+    -webkit-animation: moving 5s;
+    animation-name: movingTexts;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes movingTexts {
+    from {transform: translateY(100%); color: black;}
+    to {transform: translateY(0%); color: white;}
+}
+
 :any-link {
     font-family: favoritHangul1;
-    color: lightgrey;
-    font-size: xx-large;
+    color: darkred;
+    font-size: x-large;
     margin: 5%;
+    border: solid 1px snow;
+    padding: 5px;
+    border-style: dashed;
 }
 
 :any-link:hover {
-    color: black;
+    color: slategrey;
 }
