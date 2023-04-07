@@ -15,10 +15,28 @@
     <g fill="white" font-size="2px" font="bold" font-family="Arial">
         <text x="33" y="15">APRIL 17</text>
     </g>
-    <g fill="white" font-size="2px" font="bold" font-family="Arial">
-        <text x="33" y="15">APRIL 17</text>
+    <g fill="white" font-size="1.5px" font="bold" font-family="Arial">
+        <text x="47" y="35">APRIL 17</text>
     </g>
-
-
-    <text>NU-BODIES</text>
+    <g fill="black" font-size="4px" font="bold" font-family="Arial">
+        <text x="40" y="27">NU-BODIES</text>
+    </g>
+    <g fill="black" font-size="1.5px" font="bold" font-family="courier">
+        <text x="33" y="38">DETROIT</text>
+    </g>
+    <g fill="black" font-size="2px" font="bold" font-family="courier">
+        <text x="35" y="38">FOCUS</text>
+    </g>
+    <g fill="black" font-size="1.5px" font="bold" font-family="Arial">
+        <text x="40" y="38">March 2</text>
+    </g>
+    <g fill="black" font-size="1.5px" font="italic" font-family="serif">
+        <text x="38" y="42">Opening Reception: Friday</text>
+    </g>
+    <g fill="black" font-size="0.5px" font-family="serif">
+        <text x="60" y="45">HTML and CSS by Angela Jung</text>
+    </g>
+    <g fill="black" font-size="0.5px" font-family="serif">
+        <text x="61" y="45">Core 2 Interaction Lab</text>
+    </g>
 </svg>
