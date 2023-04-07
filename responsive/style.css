@@ -131,22 +131,22 @@ a:hover {
 
 .palm {
     background-color: rgb(17, 22, 58);
-    /* width: 250px;
-    height: 260px; */
+    width: 32vw;
+    height: 20vh;
     position: absolute;
-    /* top: 410px;
-    left: 150px; */
+    top: 40vh;
+    left: 19vw;
     border-radius: 30%;
     filter: blur(2px);
 }
 
 .blur {
     background-color: rgb(80, 164, 206);
-    /* width: 300px;
-    height: 400px; */
+    width: 40vw;
+    height: 28vh;
     position: absolute;
-    /* top: 370px;
-    left: 120px; */
+    top: 40vh;
+    left: 19vw;
     border-radius: 30%;
     filter: blur(50px);
     z-index: -1;
