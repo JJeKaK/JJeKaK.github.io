@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D practice</title>
+    <style>
+body {
+  background-color: navy;
+  margin: 5vw;
+}
+model-viewer {
+  width: 50vw;
+  height: 40vw;
+}
+p {
+    color: white;
+}
+    </style>
+    <script
+        type="module"
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+</head>
+<body>
+    <model-viewer
+    src="/3dpractice/Jellyfish.glb"
+    camera-controls
+    auto-rotate
+    rotation-per-second="30deg">
+    </model-viewer>
+    <p>jellyfish swiming</p>
+</body>
