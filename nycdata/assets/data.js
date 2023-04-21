@@ -8,16 +8,16 @@ const parseData = (programs) => {
 
     programs.forEach(program => {
         if (program.network == 'Countee Cullen Network') {
-            counteeCullenNetwork = counteeCullenNetwork + 1
+            counteeCullenNetwork++
         }
         else if (program.network == 'Seward Park Network') {
-            sewardParkNetwork = sewardParkNetwork + 1
+            sewardParkNetwork++
         }
         else if (program.network == 'Special Unit') {
-            specialUnit = specialUnit + 1
+            specialUnit++
         }
         else {
-            unknownNetwork = unknownNetwork + 1
+            unknownNetwork++
         }
     });
 
