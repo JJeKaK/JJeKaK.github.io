@@ -25,7 +25,6 @@ const parseData = (programs) => {
     console.log('Seward Park Network: ' + sewardParkNetwork)
     console.log('Special Unit: ' + specialUnit)
     console.log('Extra: ' + unknownNetwork)
-
 }
 
 

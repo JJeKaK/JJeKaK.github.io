@@ -1,3 +1,10 @@
 body {
-    background-color: gold;
+    --spacing: 24px;
+
+    font-family: sans-serif;
+    padding: var(--spacing);
+}
+
+h1 {
+    font-size: 300%;
 }
