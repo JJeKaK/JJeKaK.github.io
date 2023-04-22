@@ -1,10 +1,9 @@
 const dataUrl = 'https://data.cityofnewyork.us/resource/3nja-bsch.json'
 
-const parseData = (programs) => {
+const network = (programs) => {
     let counteeCullenNetwork = 0
     let sewardParkNetwork = 0
     let specialUnit = 0
-    let unknownNetwork = 0
 
     programs.forEach(program => {
         if (program.network == 'Countee Cullen Network') {
@@ -16,21 +15,30 @@ const parseData = (programs) => {
         else if (program.network == 'Special Unit') {
             specialUnit++
         }
-        else {
-            unknownNetwork++
-        }
     });
 
     console.log('Countee Cullen Network: ' + counteeCullenNetwork)
     console.log('Seward Park Network: ' + sewardParkNetwork)
     console.log('Special Unit: ' + specialUnit)
-    console.log('Extra: ' + unknownNetwork)
+
+    const networkList = document.getElementsById('networkList')
+    programs.forEach(item => {
+        const listProgram = document.createElement('li')
+        const programDetails =
+        `
+        <p>${item.data.counteeCullenNetwork}</p>
+        <p>${item.data.sewardParkNetwork}</p>
+        <p>${item.data.specialUnit}</p>
+        `
+        listProgram.insertAdjacentHTML('beforeend', programDetails)
+        networkList.appendChild(listProgram)
+    });
 }
 
 
 
-fetch(dataUrl + '?$limit=100')
+fetch(dataUrl)
     .then(response => response.json())
     .then(data => {
-        parseData(data)
-    })
+        network(data)
+})
