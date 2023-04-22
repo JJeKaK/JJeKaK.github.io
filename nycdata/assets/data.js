@@ -21,18 +21,18 @@ const network = (programs) => {
     console.log('Seward Park Network: ' + sewardParkNetwork)
     console.log('Special Unit: ' + specialUnit)
 
-    const networkList = document.getElementsById('networkList')
-    programs.forEach(item => {
-        const listProgram = document.createElement('li')
-        const programDetails =
-        `
-        <p>${item.data.counteeCullenNetwork}</p>
-        <p>${item.data.sewardParkNetwork}</p>
-        <p>${item.data.specialUnit}</p>
-        `
-        listProgram.insertAdjacentHTML('beforeend', programDetails)
-        networkList.appendChild(listProgram)
-    });
+    // const networkList = document.getElementsById('networkList')
+    // programs.forEach(item => {
+    //     const listProgram = document.createElement('li')
+    //     const programDetails =
+    //     `
+    //     <p>${item.counteeCullenNetwork}</p>
+    //     <p>${item.data.sewardParkNetwork}</p>
+    //     <p>${item.data.specialUnit}</p>
+    //     `
+    //     listProgram.insertAdjacentHTML('beforeend', programDetails)
+    //     networkList.appendChild(listProgram)
+    // });
 }
 
 
