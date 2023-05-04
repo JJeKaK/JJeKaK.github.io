@@ -8,3 +8,8 @@ body {
 h1 {
     font-size: 300%;
 }
+
+.node:hover{
+    stroke-width: 7px !important;
+    opacity: 1 !important;
+}

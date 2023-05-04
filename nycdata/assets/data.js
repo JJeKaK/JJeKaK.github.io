@@ -7,8 +7,8 @@ var height = 600
 
 var svg = d3.select("#dataviz")
   .append("svg")
-    .attr("width", 600)
-    .attr("height", 600)
+    .attr("width", width)
+    .attr("height", height)
 
 var data = [
   { "name": "A", "group": 1 }, { "name": "B", "group": 1 }, { "name": "C", "group": 1 }, { "name": "D", "group": 1 }, { "name": "E", "group": 1 }, { "name": "F", "group": 1 },
@@ -37,7 +37,7 @@ var node = svg.append("g")
     .style("fill-opacity", 0.8)
     .attr("stroke", "black")
     .style("stroke-width", 4)
-    .call(d3.drag() // call specific function when circle is dragged
+    .call(d3.drag()
          .on("start", dragstarted)
          .on("drag", dragged)
          .on("end", dragended));
@@ -45,10 +45,10 @@ var node = svg.append("g")
 var simulation = d3.forceSimulation()
 .force("x", d3.forceX().strength(0.5).x( function(d){ return x(d.group) } ))
 .force("y", d3.forceY().strength(0.1).y( height/2 ))
-.force("center", d3.forceCenter().x(width / 2).y(height / 2)) // Attraction to the center of the svg area
-.force("charge", d3.forceManyBody().strength(1)) // Nodes are attracted one each other of value is > 0
-.force("collide", d3.forceCollide().strength(.1).radius(32).iterations(1)) // Force that avoids circle overlapping
-     
+.force("center", d3.forceCenter().x(width / 2).y(height / 2))
+.force("charge", d3.forceManyBody().strength(1))
+.force("collide", d3.forceCollide().strength(.1).radius(32).iterations(1))
+
 simulation
     .nodes(data)
     .on("tick", function(d){
