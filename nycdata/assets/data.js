@@ -19,7 +19,6 @@ const network = (programs) => {
 
   console.log('Countee Cullen Network: ' + counteeCullenNetwork)
   console.log('Seward Park Network: ' + sewardParkNetwork)
-  console.log('Special Unit: ' + specialUnit)
 
   const networkList = document.getElementsById('networkList')
   programs.forEach(item => {
@@ -28,12 +27,22 @@ const network = (programs) => {
       `
       <p>${item.counteeCullenNetwork}</p>
       <p>${item.data.sewardParkNetwork}</p>
-      <p>${item.data.specialUnit}</p>
       `
       listProgram.insertAdjacentHTML('beforeend', programDetails)
       networkList.appendChild(listProgram)
   });
 }
+
+caches.open('cachedData')
+    .then(cache => {
+        cache.match(url)
+            .then(response => response.json())
+            .then(data => {
+                console.log('Loading data from cache…')
+                localData = data
+                parseData(localData)
+            })
+    })
 
 fetch(dataUrl)
     .then(response => response.json())
