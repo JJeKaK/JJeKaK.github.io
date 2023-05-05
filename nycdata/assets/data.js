@@ -1,5 +1,7 @@
 const dataUrl = 'https://data.cityofnewyork.us/resource/3nja-bsch.json'
 
+const graph = document.querySelector('#graph')
+
 const network = (programs) => {
   let counteeCullenNetwork = 0
   let sewardParkNetwork = 0
@@ -32,17 +34,6 @@ const network = (programs) => {
       networkList.appendChild(listProgram)
   });
 }
-
-caches.open('cachedData')
-    .then(cache => {
-        cache.match(url)
-            .then(response => response.json())
-            .then(data => {
-                console.log('Loading data from cache…')
-                localData = data
-                parseData(localData)
-            })
-    })
 
 fetch(dataUrl)
     .then(response => response.json())
