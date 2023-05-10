@@ -54,6 +54,47 @@ fetch(dataUrl)
                     borderColor: "lightgray",
                     data: yValues
                 }]
+            },
+            options: {
+                legend: {
+                    position: "bottom"
+                }
             }
         });
 })
+
+
+
+fetch(dataUrl)
+    .then(response => response.json())
+    .then(data => {
+        const totalAttendance = data[42];
+        const adultAttendance = totalAttendance.adult_attendance;
+        const youngAdultAttendance = totalAttendance.young_adult_attendance;
+        const juvenileAttendance = totalAttendance.juvenile_attendance;
+        const outreachAttendance = totalAttendance.outreach_services_attendance;
+
+        var xAttendance = ["Adult Program Attendance", "Young Adult Program Attendance", "Juvenile Program Attendance", "Outreach Services Attendance"];
+        var yAttendance = [adultAttendance, youngAdultAttendance, juvenileAttendance, outreachAttendance];
+        var barColors = ["#F84D61", "#59F7DA", "#B5E046", "#FFB653"];
+
+        new Chart("totalAttendance", {
+            type: "pie",
+            data: {
+                labels: xAttendance,
+                datasets: [{
+                    backgroundColor: barColors,
+                    borderColor: "lightgray",
+                    data: yAttendance
+                }]
+            },
+            options: {
+                legend: {
+                    position: "bottom"
+                }
+            }
+        });
+})
+
+
+
