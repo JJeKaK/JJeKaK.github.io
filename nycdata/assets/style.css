@@ -15,20 +15,24 @@ body {
 
 h1 {
     font-size: 300%;
-    color: rgb(236, 66, 66);
+    color: lightgray;
     font-weight: bolder;
 }
 
 h2 {
-    color: rgb(17, 17, 94);
-    margin-bottom: var(--spacing);
+    color: lightgray;
     font-weight: bold;
+}
+
+container {
+    background-image: url(/nycdata/assets/bookimg.jpeg);
+    padding: 5px;
 }
 
 p {
     color: rgb(17, 17, 94);
     margin: 3px;
-    font-size: large;
+    font-size: larger;
 }
 
 ul {
