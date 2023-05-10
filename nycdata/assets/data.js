@@ -19,38 +19,10 @@ const network = (programs) => {
       }
   });
 
-  console.log('Countee Cullen Network: ' + counteeCullenNetwork)
-  console.log('Seward Park Network: ' + sewardParkNetwork)
+graph.style.setProperty('--counteeCullenNetwork', counteeCullenNetwork)
+graph.style.setProperty('--sewardParkNetwork', sewardParkNetwork)
+graph.style.setProperty('--specialUnit', specialUnit)
 }
-
-// const aProgramz = (aPrograms) => {
-//     let adult_program = 0
-//     let young_adult_program = 0
-//     let juvenile_program = 0
-//     let outreach_services_program = 0
-
-//     aPrograms.forEach(aProgram => {
-//         if (aProgram.aProgramz == 'Adult Programs') {
-//             adult_program++
-//         }
-//         else if (aProgram.aProgramz == 'Young Adult Programs') {
-//             young_adult_program++
-//         }
-//         else if (aProgram.aProgramz == 'Juvenile Programs') {
-//             juvenile_program++
-//         }
-//         else if (aProgram.aProgramz == 'Outreach Services Programs') {
-//             outreach_services_program++
-//         }
-//     });
-
-//     console.log('Adult Programs: ' + adult_program)
-//     console.log('Young Adult Programs: ' + young_adult_program)
-//     console.log('Juvenile Programs: ' + juvenile_program)
-//     console.log('Outreach Services Programs: ' + outreach_services_program)
-// }
-
-
 
 fetch(dataUrl)
     .then(response => response.json())
@@ -58,8 +30,30 @@ fetch(dataUrl)
         network(data)
 })
 
-// fetch(dataUrl)
-//     .then(response => response.json())
-//     .then(data => {
-//         aProgramz(data)
-// })
+
+
+fetch(dataUrl)
+    .then(response => response.json())
+    .then(data => {
+        const totalPrograms = data[42];
+        const adultProgram = totalPrograms.adult_program;
+        const youngAdultProgram = totalPrograms.young_adult_program;
+        const juvenileProgram = totalPrograms.juvenile_program;
+        const outreachServices = totalPrograms.outreach_services_program;
+
+        var xValues = ["Adult Program", "Young Adult Program", "Juvenile Program", "Outreach Services"];
+        var yValues = [adultProgram, youngAdultProgram, juvenileProgram, outreachServices];
+        var barColors = ["#F84D61", "#59F7DA", "#B5E046", "#FFB653"];
+
+        new Chart("totalPrograms", {
+            type: "pie",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    borderColor: "lightgray",
+                    data: yValues
+                }]
+            }
+        });
+})

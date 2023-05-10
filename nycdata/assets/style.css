@@ -1,19 +1,66 @@
 * {
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
 
 body {
-    --spacing: 24px;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: var(--spacing);
+    display: grid;
+}
+
+@media (min-width: 600px) {
+    body {--spacing: 32px;}
 }
 
 h1 {
     font-size: 300%;
-    font-family: Arial, Helvetica, sans-serif;
     color: rgb(236, 66, 66);
+    font-weight: bolder;
+}
+
+h2 {
+    color: rgb(17, 17, 94);
+    margin-bottom: 24px;
+    font-weight: bold;
 }
 
 p {
     color: rgb(17, 17, 94);
+    margin: 3px;
+    font-size: large;
+}
+
+ul {
+    border-radius: calc(var(--spacing) / 4);
+}
+
+#graph {
+    --total: calc(var(--counteeCullenNetwork) + var(--sewardParkNetwork) + var(--specialUnit));
+    display: flex;
+    height: calc(var(--spacing) * 2);
+    overflow: hidden;
+    width: 90%;
+}
+
+#graph li { 
+    transition: width 1s ease-in-out;
+    border-right: 3px solid lightgray;
+    color: lightgray;
+    text-align: center;
+}
+
+#graph .counteeCullenNetwork { width: calc(var(--counteeCullenNetwork) / var(--total) * 100%); }
+#graph .sewardParkNetwork { width: calc(var(--sewardParkNetwork) / var(--total) * 100%); }
+#graph .specialUnit { width: calc(var(--specialUnit) / var(--total) * 100%); }
+
+.counteeCullenNetwork { background-color: rgb(236, 66, 66); }
+.sewardParkNetwork { background-color: rgb(81, 81, 205); }
+.specialUnit { background-color: rgb(240, 194, 101); }
+
+#totalPrograms {
+    display: flex;
+    margin: var(--spacing);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    text-align: center;
 }
